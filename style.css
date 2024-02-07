@@ -1,0 +1,104 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/e3/24/e5/e324e56f50d63422474d6fb5c0fb39ad.gif"); 
+    background-size: 100%;
+    font-family:Arial, sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 0.02em;
+    text-shadow: black 0.1em 0.1em 0.2em; 
+}
+
+#ingreso {    
+    width: 350px;
+    height: 50px;
+    padding: 0px 20px 0px 20px;
+    border: 1px solid #DFDFDF;
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+    background: #F7F7F7;
+    outline: none;
+}
+
+
+button,input {
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    font-size: 2rem;
+    height: 40px;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 15px 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background: #254E70;
+}
+  
+button:hover {
+    background: #132742;
+}
+
+.container {
+    background-color: white;
+    color: #1e2432;
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    margin-left: 50px;
+    visibility : hidden;
+    margin: 50px auto;
+}
+
+.ciudades {
+    padding: 40px 10%; 
+}
+
+#ciudad {
+    font-size: 2rem;
+    color: #717681;
+}
+
+#temperatura {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+sup {
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+img {
+    width: 4rem;
+}
+
+#descripcion {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #717681;
+}
+
+.encabezado {
+    text-align: center;
+}
